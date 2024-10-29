@@ -1,6 +1,7 @@
 
 import BlurIn from "../@/components/magicui/blur-in";
 import './App.css'
+import Skills from "./components/Skills";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       </h1> */}
       <div>
         <BlurIn word={"Hello World"}></BlurIn>
+        <Skills></Skills>
       </div>
     </>
   )
